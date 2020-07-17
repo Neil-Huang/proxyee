@@ -84,7 +84,10 @@ new HttpProxyServer()
 
 更多 demo 代码在 test 包内可以找到，这里就不一一展示了
 
+#### 测试
 
+curl --connect-timeout 2 -x 127.0.0.1:9999 http://www.baidu.com/robots.txt
+curl --connect-timeout 2 -x 127.0.0.1:9999 https://www.baidu.com/robots.txt
 
 
 
